@@ -1,0 +1,4 @@
+<apex:page standardController="Account">
+  <apex:sectionHeader title=" From page Status: {!Account.Name}" />
+  Hola {!HTMLENCODE(Account.Name)}
+</apex:page>

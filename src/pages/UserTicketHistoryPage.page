@@ -1,0 +1,33 @@
+<apex:page standardController="BookYourShowUsers__c" extensions="UserTicketHistoryExtension">
+    <apex:form >
+        <apex:pageBlock title="BookYourShow Users Information">
+            <apex:pageblockSection >
+                <apex:outputField value="{!BookYourShowUsers__c.Name}"/><br/>                
+                <apex:OutputField value="{!BookYourShowUsers__c.Customer_Email_Id__c}"/><br/>
+                <apex:OutputField value="{!BookYourShowUsers__c.Full_Name__c}"/>               
+            </apex:pageblockSection>
+        </apex:pageBlock>
+        
+        <apex:pageBlock title="Past Tickets List">
+            <apex:pageBlockTable value="{!PastTicketList}" var="PastTickets">
+                <apex:column headerValue="Name">
+                    <apex:outputLink value="/apex/TicketDetailPage?id={!PastTickets.id}">{!PastTickets.Name}
+                    </apex:outputLink>
+                </apex:column>
+                <apex:column value="{!PastTickets.Ticket_Price__c}"/>  
+                <apex:column value="{!PastTickets.Comments__c}"/>   
+            </apex:pageBlockTable>
+        </apex:pageBlock>
+        
+        <apex:pageBlock title="Future Tickets List">
+            <apex:pageBlockTable value="{!FutureTicketList}" var="FutureTickets">
+                <apex:column headerValue="Name">
+                    <apex:outputLink value="/apex/TicketDetailPage?id={!FutureTickets.id}">{!FutureTickets.Name}
+                    </apex:outputLink>
+                </apex:column>
+                <apex:column value="{!FutureTickets.Ticket_Price__c}"/>
+                <apex:column value="{!FutureTickets.Status__c}"/>                
+            </apex:pageBlockTable>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

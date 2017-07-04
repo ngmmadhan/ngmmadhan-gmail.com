@@ -1,0 +1,13 @@
+<!--/////////////////////////////////////
+
+Copyright � 2016  Tavant Technology Inc
+Name - twod_CruderCmp
+Purpose - component for CRUD related functionalities in all lightning components
+Date - 12/27/2016
+Last Edited by - AMAN SAWHNEY
+
+/////////////////////////////////////-->
+
+<aura:component extensible="true" controller="CruderCntrl" implements="force:appHostable" >
+	{!v.body}
+</aura:component>

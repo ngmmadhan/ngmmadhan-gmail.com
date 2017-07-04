@@ -1,0 +1,72 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "AccountHandler",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "AccountHandler",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 3
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "insertNewAccount",
+            "parameters": [
+                {
+                    "name": "AccountName",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "Account",
+            "type": null
+        }
+    ],
+    "name": "AccountHandler",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "AccountHandler",
+        "references": [],
+        "type": "AccountHandler"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 55,
+                "line": 3
+            },
+            "modifiers": [],
+            "name": "AccountName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 4
+            },
+            "modifiers": [],
+            "name": "Acct",
+            "references": [],
+            "type": "Account"
+        }
+    ]
+}

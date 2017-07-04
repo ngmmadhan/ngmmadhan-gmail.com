@@ -1,0 +1,33 @@
+<apex:page controller="actionPollerExample">
+    <apex:form >
+        <apex:outputPanel id="counter" >
+            <apex:outputPanel rendered="{!show}">
+                <apex:outputText value="Watch this counter - {!count} {!show}"/>
+            </apex:outputPanel>
+        </apex:outputPanel>
+        <apex:actionStatus id="Loadingstatus">
+            <apex:facet name="start">
+            <div style="position: fixed; top: 0; left: 0; right: 0; bottom: 0; opacity: 0.25; z-index: 1000; background-color: black;">
+                &nbsp;
+            </div>
+            <div style="position: fixed; left: 0; top: 0; bottom: 0; right: 0; z-index: 1001; margin: 15% 50%">
+                <div style="display: inline-block; padding: 2px; background-color: #fff; width: 180px;">
+                    <img src="/img/loading.gif" style="float: left; margin: 8px;" />
+                    <span style="display: inline-block; padding: 10px 0px;">Generating Certificate...</span>
+                </div>
+            </div>
+            </apex:facet>
+            <apex:facet name="stop">
+                <apex:outputText value="Show - {!show}" id="facetstop"/>
+            </apex:facet>
+        </apex:actionStatus>
+        <apex:actionFunction name="generatestatus" action="{!incrementCounter}" status="Loadingstatus" reRender="counter,facetstop"/>
+        <apex:actionPoller action="{!incrementCounter}" rerender="counter,facetstop"
+            status="Loadingstatus" interval="5"/>
+    </apex:form>
+ <script>
+    window.onload = function() {
+        generatestatus();                                                                                                                 
+    } 
+</script>
+</apex:page>

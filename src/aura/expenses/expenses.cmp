@@ -1,0 +1,41 @@
+<aura:component Controller='ExpensesController'>
+	<aura:attribute name="newExpense" type="Expense__c" default="{'sobjectType':'Expense__c',
+																																'Name':'',
+																																'Amount__c':'0',
+																																'Client__c':'',
+																																'Date__c':'',
+																																'Reimbursed__c':'false'
+																															 }"/>
+	<aura:attribute name="expensesArr" type="Expense__c[]"/>
+	<aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
+	<aura:handler name="updateExpense" event="c:expensesItemUpdate" action="{!c.handleUpdateExpense}"/>
+ 	<div class="slds-page-header" role="banner">
+        <div class="slds-grid">
+        	<div class="slds-col">
+                <p class="slds-text-heading--label">Expense</p>
+                <p class="slds-text-heading--medium">My Expense</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="slds-col slds-col--padded slds-p-top--large">
+		<fieldset class="slds-box slds-theme--default slds-container--large">
+			<legend class="slds-text-heading--small"> Add Expense </legend>
+			<form class="slds-form--stacked">
+				<div class="slds-form-element slds-is-required">
+					<div class="slds-form-element__control">
+					 <ui:inputText aura:id="expname" label="Expense Name" class="slds-input" labelclass="slds-form-element--label" value="{!v.newExpense.Name}" required="true"/>
+				 </div>
+				</div>
+				<ui:inputNumber aura:id='amount' label="Amount" class="slds-input" labelclass="slds-form-element--label" value="{!v.newExpense.Amount__c}" required="true"/>
+				<ui:inputDate aura:id='expdate' label="Expense Date" class="slds-input" labelclass="slds-form-element--label" value="{!v.newExpense.Date__c}" required="true" displayDatePicker="true"/>
+				<ui:inputText aura:id='client' label="Client" class="slds-input" labelclass="slds-form-element--label" value="{!v.newExpense.Client__c}" required="true" placeholder="ABC Company"/>
+				<ui:inputCheckbox aura:id='reimbursed' label="Reimbursed ? " value="{!v.newExpense.Reimbursed__c}" required="true"/>
+				<ui:button label="Create Expense" press="{!c.clickCreateExpense}"/>
+			</form>
+		</fieldset>
+    </div>
+		<aura:iteration items="{!v.expensesArr}" var="expensesItem">
+      <c:expenseItem expense='{!expensesItem}'/>
+    </aura:iteration>
+</aura:component>

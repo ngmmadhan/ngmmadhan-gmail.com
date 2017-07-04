@@ -1,0 +1,78 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p2800000Ek8KUAAZ",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p2800000Ek8KUAAZ",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 3
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getItems",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 8
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "saveItem",
+            "parameters": [
+                {
+                    "name": "item",
+                    "type": "Camping_Item__c"
+                }
+            ],
+            "references": [],
+            "returnType": "Camping_Item__c",
+            "type": null
+        }
+    ],
+    "name": "CampingListController",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "CampingListController",
+        "references": [],
+        "type": "CampingListController"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 57,
+                "line": 8
+            },
+            "modifiers": [],
+            "name": "item",
+            "references": [],
+            "type": "Camping_Item__c"
+        }
+    ]
+}

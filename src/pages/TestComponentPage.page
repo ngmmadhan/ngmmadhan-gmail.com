@@ -1,0 +1,4 @@
+<apex:page standardController="Account">
+  <apex:sectionHeader title="{!Account.Name}" />
+  <c:VFComponent />
+</apex:page>

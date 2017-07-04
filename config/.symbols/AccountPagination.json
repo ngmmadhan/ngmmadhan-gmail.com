@@ -1,0 +1,45 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p2800000EjqNuAAJ",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p2800000EjqNuAAJ",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 4
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getAccounts",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        }
+    ],
+    "name": "AccountPagination",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "AccountPagination",
+        "references": [],
+        "type": "AccountPagination"
+    },
+    "variables": []
+}

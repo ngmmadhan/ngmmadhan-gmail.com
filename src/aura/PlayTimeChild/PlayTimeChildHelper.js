@@ -1,0 +1,5 @@
+({
+  HandleOnMessage: function(component, event) {
+
+  },
+})

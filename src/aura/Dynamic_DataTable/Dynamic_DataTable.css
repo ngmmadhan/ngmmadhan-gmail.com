@@ -1,0 +1,10 @@
+.THIS .icon {
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	fill: currentColor;
+}
+.THIS #svg{
+    color:blue;
+    background:blue;
+}

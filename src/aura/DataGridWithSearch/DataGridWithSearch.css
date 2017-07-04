@@ -1,0 +1,5 @@
+.THIS input[type=number]::-webkit-inner-spin-button,
+.THIS	input[type=number]::-webkit-outer-spin-button {
+  	-webkit-appearance: none;
+  	margin: 0;
+}

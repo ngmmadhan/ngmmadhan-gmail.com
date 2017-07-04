@@ -1,0 +1,121 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p2800000EkGxCAAV",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p2800000EkGxCAAV",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 5
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getInclude",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 10
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getmyTextPage",
+            "parameters": [],
+            "references": [],
+            "returnType": "outputtext",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 17
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getmyDetailPage",
+            "parameters": [],
+            "references": [],
+            "returnType": "detail",
+            "type": null
+        }
+    ],
+    "name": "CustomAccountController",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 3
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "IdParam",
+            "references": [],
+            "type": "Id"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "CustomAccountController",
+        "references": [],
+        "type": "CustomAccountController"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 6
+            },
+            "modifiers": [],
+            "name": "pageReference",
+            "references": [],
+            "type": "PageReference"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 12
+            },
+            "modifiers": [],
+            "name": "OT",
+            "references": [],
+            "type": "outputtext"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 18
+            },
+            "modifiers": [],
+            "name": "detail",
+            "references": [],
+            "type": "detail"
+        }
+    ]
+}

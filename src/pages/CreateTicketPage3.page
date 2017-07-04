@@ -1,0 +1,26 @@
+<apex:page StandardController="Ticket__c" Extensions="CreateTicketExtension">
+    <apex:form >
+        <apex:pageBlock Title="Hi {!UserDetails.Full_Name__c},">
+            <apex:pageBlockSection title="Please review and confirm the ticket" collapsible="false">
+                <apex:PageBlockSectionItem >
+                    <apex:outputLabel style="font-weight:bold;font-size: 20px;font-family:Arial Black,Gadget,sans-serif" escape="true" value="Concert Details" ></apex:outputLabel>
+                </apex:PageBlockSectionItem>     
+                <apex:inputHidden />             
+                <apex:OutputField value="{!Ticket__c.Concert__c}"/>              
+                <apex:OutputField value="{!Concert.Date_of_Concert__c}"/>   
+                <apex:OutputField value="{!Ticket__c.No_of_Tickets__c}"/>                 
+                <apex:OutputField value="{!Ticket__c.Ticket_Price__c}"/>                 
+                <apex:PageBlockSectionItem >
+                    <apex:outputLabel style="font-weight:bold;font-size: 20px;font-family:Arial Black,Gadget,sans-serif" escape="true" value="Booking ID" ></apex:outputLabel>   
+                </apex:PageBlockSectionItem>     
+                <apex:inputHidden />                                              
+                <apex:OutputField value="{!Ticket__c.BookYourShow_Users__c}"/> 
+                <apex:outputField value="{!UserDetails.Customer_Email_Id__c}"/>                                   
+            </apex:pageBlockSection>         
+            <apex:pageBlockButtons location="Bottom">
+                <apex:CommandButton action="{!ConfirmTicket}" Value="Confirm Ticket"/>
+                <apex:commandButton value="Cancel" action="{!CancelBooking}" immediate="true"/>                 
+            </apex:pageBlockButtons>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

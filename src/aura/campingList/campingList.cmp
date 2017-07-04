@@ -1,0 +1,27 @@
+<aura:component controller="CampingListController">
+	<!-- <aura:attribute name="orderedlst" type="List" default="['Bug Spray','Bear Repellant','Goat Food']"/> -->
+	<aura:attribute name="items" type="Camping_Item__c[]"/>
+	<aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
+	<aura:handler name="addItem" event="c:addItemEvent" action="{!c.handleAddItem}"/>
+  <c:campingListForm />
+	<section class="slds-card__body">
+		<div class="slds-card__header slds-grid slds-text-heading--large">
+			<p>
+			Camping Item List
+		</p>
+		</div>
+		<aura:iteration var="item" items="{!v.items}">
+		 <div class="slds-media__body">
+			<div class="slds-text-heading--small">
+				<c:campingListItem item='{!item}'/>
+			</div>
+		</div>
+		<br/>
+		</aura:iteration>
+ </section>
+	<!--<ol>
+			<li>Bug Spray</li>
+			<li>Bear Repellant</li>
+			<li>Goat Food</li>
+		</ol> -->
+</aura:component>

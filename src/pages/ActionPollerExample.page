@@ -1,0 +1,17 @@
+<apex:page Controller="exampleCon">
+    <apex:form >
+        <apex:actionregion >
+            <!-- <apex:outputPanel rendered="{!ShowProgress}"> -->
+                <apex:actionStatus id="actStatusId" >
+                    <apex:facet name="start" >
+                      <img src="/img/loading.gif" />                    
+                    </apex:facet>
+                </apex:actionStatus>
+           <!-- </apex:outputPanel> -->
+        </apex:actionregion>
+        <apex:actionPoller action="{!incrementCounter}" rerender="counter" status="counterStatus" interval="10"/>
+      <apex:outputLink value="{!URLFOR($Action.Attachment.Download,'00P2800000Q2vzf')}">
+      Download Now!
+    </apex:outputLink>
+    </apex:form>
+</apex:page>

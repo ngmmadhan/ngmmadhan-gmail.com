@@ -1,0 +1,5 @@
+<aura:component extends="c:PlayTimeChild">
+<br/>Value Before Set inside Child of Child : {!v.valueTest}
+	<aura:set attribute="valueTest" value="103"/>
+	<aura:set attribute="valueTest" value="104"/>
+</aura:component>

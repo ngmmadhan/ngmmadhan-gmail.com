@@ -1,0 +1,30 @@
+<aura:component controller="AccountPagination">
+    <ltng:require styles="/resource/slds/assets/styles/salesforce-lightning-design-system.css" />
+    
+    <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
+    
+    <aura:attribute name="acccountList" type="Account[]" />
+    <aura:attribute name="paginationList" type="Account[]"/>
+    <aura:attribute name="pageSize" type="Integer" default="2"/>
+ <aura:attribute name="totalSize" type="Integer"/>
+    <aura:attribute name="start" type="Integer" />
+ <aura:attribute name="end" type="Integer"/>
+    
+    <table class="slds-table slds-table--bordered ">
+        <thead>
+            <tr style="background-color:#6cbcd2;color:white;font-weight:bold">
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <aura:iteration items="{!v.paginationList}" var="item">
+                <tr>
+                    <td><ui:outputText value="{!item.Name}" /></td>
+                </tr>
+            </aura:iteration>
+            <lightning:button label="Previous" disabled="{!v.start == 0}"  onclick="{!c.previous}" />
+      <lightning:button label="Next" disabled="{!v.end >= v.totalSize}" onclick="{!c.next}" />
+      <lightning:button label="Open Account" onclick="{!c.openaccount}" />
+        </tbody>
+ </table>
+</aura:component>

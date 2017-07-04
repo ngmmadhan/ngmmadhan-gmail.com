@@ -1,0 +1,31 @@
+<apex:page cache="false" expires="0" sidebar="false" >
+    <apex:includeScript value="{!URLFOR($Resource.js, '')}"  />
+        <apex:includeScript value="{!URLFOR($Resource.JSAccordion, '')}"/>
+
+    <script>
+        $j = js.noConflict();
+
+        $j(document).ready(function($)
+        {
+            $j("#SFDCSalesPanel").accordion();
+        });
+    </script>
+
+    <style>
+        .accordion
+        {
+            display:block;
+        }
+    </style>
+
+    <apex:pageBlock id="playBlock" >
+        <div id="SFDCSalesPanel">
+            <h3 class="accordion"><a href="#">Header 1</a></h3>
+            <div>Content 1</div>
+            <h3 class="accordion"><a href="#">Header 2</a></h3>
+            <div>Content 2</div>
+            <h3 class="accordion"><a href="#">Header 3</a></h3>
+            <div>Content 3</div>
+        </div>
+    </apex:pageBlock>
+</apex:page>

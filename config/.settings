@@ -1,0 +1,16 @@
+{
+    "projectName": "ngmmadhan@gmail.com",
+    "username": "ngmmadhan@gmail.com",
+    "id": "8c047ec0-e6b6-11e6-b23e-c11dfcce7df2",
+    "namespace": "",
+    "environment": "production",
+    "loginUrl": "",
+    "workspace": "D:\\Workspace\\ngmmadhan@gmail.com",
+    "subscription": [
+        "ApexClass",
+        "ApexComponent",
+        "ApexPage",
+        "ApexTrigger",
+        "StaticResource"
+    ]
+}

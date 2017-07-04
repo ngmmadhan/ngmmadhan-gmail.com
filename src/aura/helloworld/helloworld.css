@@ -1,0 +1,268 @@
+.THIS.main-body {
+    font-family: "Salesforce Sans", Arial, sans-serif;
+}
+.THIS .required {
+    border-left: solid red;
+}
+.THIS .header {
+    background: #1a315b;
+    color: white;
+    padding: 30px;
+}
+.THIS .descriptionPositioner {
+    display: inline;
+    position: fixed;
+    float: left;
+    margin-top: -40px;
+    z-index: 10000;
+}
+.THIS .uiButton--default {
+    font-weight: inherit;
+    margin: none;
+    box-shadow: none;
+    text-shadow: none;
+    position: relative;
+    display: inline-block;
+    border-radius: .25rem;
+    font-size: .75rem;
+    line-height: 1.875rem;
+    text-decoration: none;
+    -webkit-appearance: none;
+    white-space: normal;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 15px;
+}
+.THIS .uiButton--default .label {
+    color: white;
+}
+.THIS .containerC {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 25px;
+}
+.THIS td>div {
+    font-weight: 300;
+    font-size: 0.8em;
+    font-family: "Salesforce Sans", Arial, sans-serif;
+}
+.THIS th>div {
+    font-weight: 700;
+    font-size: small;
+}
+.THIS .descriptionPosition {
+    position: absolute;
+    z-index: 50000;
+    margin-left: -26px;
+    margin-top: -58px;
+}
+.THIS .output {
+    cursor: initial!important;
+    cursor: initial!important;
+    font-weight: 300;
+    border-color: #bdbdbd !important;
+    background: #f5f5f5 !important;
+    font-weight: initial;
+}
+.THIS .selective-padder {
+    padding: 20px 20px 20px 0px;
+}
+.THIS .clickable-text {
+    color: #2d2ddd;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.THIS .relative {
+    position: relative;
+    top: 50%;
+    z-index: 1000;
+}
+@media screen and (min-width: 400px) {
+    .THIS.containerC {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+@media screen and (min-width: 800px) {
+    .THIS.containerC {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+.THIS .padder {
+    padding: 20px;
+}
+
+/********************expand collapse css*******************/
+
+.THIS .accordion {
+    color: white;
+    display: block;
+    padding-bottom: 20px;
+}
+.THIS .accordion-body {
+    background: white;
+    color: black;
+    font-size: 1.5em;
+    display: block;
+    padding: 17px 9px 17px 9px;
+}
+
+/*.THIS input[type=checkbox]:checked~.accordion-body {
+    display: none;
+}*/
+
+.THIS .accordion>input {
+    display: none;
+}
+.THIS .accordion-heading {
+    padding: 17px;
+    border-bottom: solid;
+    border-bottom-width: 9px;
+    border-bottom-color: white;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    text-align: left;
+    display: block;
+    cursor: pointer;
+    color: rgb(99, 101, 109);
+    background: rgb(227, 228, 232);
+    border-color: rgb(99, 101, 109);
+    border-width: 2px;
+    text-transform: capitalize;
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Chrome/Safari/Opera */
+    -khtml-user-select: none;
+    /* Konqueror */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+}
+.THIS .open-accordion-color {
+    border-top: solid;
+    border-top-color: rgb(0, 65, 182);
+    border-bottom: none;
+    font-weight: bold;
+}
+.THIS .close-accordion-color {}
+
+/**********************This page css*******************************/
+
+.THIS .form {
+    background: white;
+    box-shadow: #302e2e -3px 4px 25px;
+    padding: 10px;
+}
+.THIS .form-heading {
+    background: rgb(244, 246, 249);
+    font-size: .75rem;
+    line-height: 1.25;
+    text-transform: uppercase;
+    padding: 20px;
+    color: #808694;
+    border: solid 1px #bec0c2;
+    font-size: 1rem;
+}
+.THIS .select-box-padder {
+    padding: 10px !important;
+}
+.THIS .form-break {
+    height: 1px;
+    padding: 20px;
+}
+.THIS .tab-close {
+    display: none;
+}
+.THIS .tab-open {
+    display: block;
+}
+.THIS .spinner-container {
+    position: relative;
+    padding: 50px;
+}
+.THIS .field-error {
+    color: red;
+    padding: 5px;
+    font-size: 14px;
+}
+
+/*************************slds override**************************/
+
+.THIS .slds-form-element__label {
+    margin-left: 1rem;
+}
+.THIS .slds-input {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: initial;
+}
+.THIS .uiLabel>span {
+    font-size: initial !important;
+}
+.THIS .uiLabel>span:not(:first-child) {
+    display: none;
+}
+.THIS .uiLabel {
+    padding-bottom: 9px;
+    display: inline-block;
+}
+.THIS .slds-button--brand {
+    color: white;
+    background: #2070d0;
+    border: 1px solid #195fb0;
+}
+.THIS .slds-button--brand:hover {
+    background: #195fb0;
+}
+.THIS .slds-button--brand:active {
+    background: #195fb0;
+    border: 1px solid rgba(74, 102, 156, 0.84);
+}
+.THIS .slds-button--brand:focus {
+    background: #195fb0;
+    border: 1px solid rgba(74, 102, 156, 0.84);
+}
+.THIS .slds-spinner_container {
+    position: fixed!important;
+}
+.THIS label>span {
+    font-size: initial;
+}
+.THIS .slds-modal__container {
+    outline: none;
+}
+.THIS .button-group {
+    text-align: center;
+    padding: 14px;
+}
+.THIS .button-group {
+    text-align: center;
+    padding: 14px;
+}
+
+/***********************ui component override***************************/
+
+.THIS .datePicker-openIcon {
+    display: inline-block;
+    float: right !important;
+    margin-top: -30px !important;
+}
+
+/******************* table css ***************************/
+
+.THIS .jobcode-container, .THIS .installed-part-container, .THIS .removed-part-container, .THIS .nonOEM-part-container, .THIS .partsToBeShipped-container {
+    padding: 2rem;
+    overflow-x: auto;
+    max-width: 100%;
+    border: solid 1px #e3e4e8;
+}

@@ -1,0 +1,56 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p2800000EjgEpAAJ",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p2800000EjgEpAAJ",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 4
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getMyMap",
+            "parameters": [],
+            "references": [],
+            "returnType": "Map",
+            "type": null
+        }
+    ],
+    "name": "MyMapController",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "MyMapController",
+        "references": [],
+        "type": "MyMapController"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 5
+            },
+            "modifiers": [],
+            "name": "Mymap",
+            "references": [],
+            "type": "Map"
+        }
+    ]
+}

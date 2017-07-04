@@ -1,0 +1,23 @@
+38.0 APEX_CODE,FINEST;APEX_PROFILING,INFO;CALLOUT,INFO;DB,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,INFO;WAVE,INFO;WORKFLOW,INFO
+02:36:47.0 (328423)|USER_INFO|[EXTERNAL]|005280000056Sdu|ngmmadhan@gmail.com|Pacific Standard Time|GMT-07:00
+02:36:47.0 (356527)|EXECUTION_STARTED
+02:36:47.0 (359638)|CODE_UNIT_STARTED|[EXTERNAL]|06628000008Q3CD|VF: /apex/getsessionidpage
+02:36:47.25 (25895412)|CUMULATIVE_LIMIT_USAGE
+02:36:47.25 (25895412)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 10 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+02:36:47.25 (25895412)|CUMULATIVE_LIMIT_USAGE_END
+
+02:36:47.0 (25929264)|CODE_UNIT_FINISHED|VF: /apex/getsessionidpage
+02:36:47.0 (27593788)|EXECUTION_FINISHED

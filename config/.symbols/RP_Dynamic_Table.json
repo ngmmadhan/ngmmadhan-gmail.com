@@ -1,0 +1,420 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "RP_Dynamic_Table",
+    "innerClasses": [
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": "sexception",
+            "innerClasses": [],
+            "interfaces": [],
+            "key": "sexception",
+            "methods": [],
+            "name": "sexception",
+            "namespace": null,
+            "parentClass": "Exception",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 23,
+                    "line": 3
+                },
+                "modifiers": [
+                    "private"
+                ],
+                "name": "sexception",
+                "references": [],
+                "type": "sexception"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 16
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "sObjectWrapper",
+                    "parameters": [
+                        {
+                            "name": "lstFieldApi",
+                            "type": "List"
+                        },
+                        {
+                            "name": "lstFieldLabel",
+                            "type": "List"
+                        },
+                        {
+                            "name": "lstSobject",
+                            "type": "List"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": "sObjectWrapper",
+            "innerClasses": [],
+            "interfaces": [],
+            "key": "sObjectWrapper",
+            "methods": [],
+            "name": "sObjectWrapper",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 37,
+                        "line": 8
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "lstFieldApi",
+                    "references": [],
+                    "type": "List"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 37,
+                        "line": 11
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "lstFieldLabel",
+                    "references": [],
+                    "type": "List"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 38,
+                        "line": 14
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "lstSobject",
+                    "references": [],
+                    "type": "List"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 22,
+                    "line": 5
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "sObjectWrapper",
+                "references": [],
+                "type": "sObjectWrapper"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 52,
+                        "line": 16
+                    },
+                    "modifiers": [],
+                    "name": "lstFieldApi",
+                    "references": [],
+                    "type": "List<String>"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 78,
+                        "line": 16
+                    },
+                    "modifiers": [],
+                    "name": "lstFieldLabel",
+                    "references": [],
+                    "type": "List<String>"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 107,
+                        "line": 16
+                    },
+                    "modifiers": [],
+                    "name": "lstSobject",
+                    "references": [],
+                    "type": "List<SObject>"
+                }
+            ]
+        }
+    ],
+    "interfaces": [],
+    "key": "RP_Dynamic_Table",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 24
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getFieldAccessibility",
+            "parameters": [
+                {
+                    "name": "strQuery",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "AuraEnabled"
+                }
+            ],
+            "location": {
+                "column": 38,
+                "line": 61
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "fetchRecords",
+            "parameters": [
+                {
+                    "name": "strQuery",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "sObjectWrapper",
+            "type": null
+        }
+    ],
+    "name": "RP_Dynamic_Table",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "RP_Dynamic_Table",
+        "references": [],
+        "type": "RP_Dynamic_Table"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 60,
+                "line": 24
+            },
+            "modifiers": [],
+            "name": "strQuery",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 26
+            },
+            "modifiers": [],
+            "name": "lstFieldsToCheck",
+            "references": [],
+            "type": "List<String>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 27
+            },
+            "modifiers": [],
+            "name": "mapFields",
+            "references": [],
+            "type": "Map<String,Schema.SObjectField>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 28
+            },
+            "modifiers": [],
+            "name": "strObject",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 35
+            },
+            "modifiers": [],
+            "name": "objSObjectType",
+            "references": [],
+            "type": "Schema.SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 43
+            },
+            "modifiers": [],
+            "name": "strFields",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 45
+            },
+            "modifiers": [],
+            "name": "strField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 50
+            },
+            "modifiers": [],
+            "name": "strField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 58,
+                "line": 61
+            },
+            "modifiers": [],
+            "name": "strQuery",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 63
+            },
+            "modifiers": [],
+            "name": "lstFieldAPIs",
+            "references": [],
+            "type": "List<String>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 64
+            },
+            "modifiers": [],
+            "name": "lstFields",
+            "references": [],
+            "type": "List<String>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 65
+            },
+            "modifiers": [],
+            "name": "lstSobject",
+            "references": [],
+            "type": "List<SObject>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 67
+            },
+            "modifiers": [],
+            "name": "queryString",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 71
+            },
+            "modifiers": [],
+            "name": "e",
+            "references": [],
+            "type": "RP_Dynamic_Table.sexception"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 78
+            },
+            "modifiers": [],
+            "name": "strFields",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 80
+            },
+            "modifiers": [],
+            "name": "mfields",
+            "references": [],
+            "type": "Map<String,Schema.SObjectField>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 81
+            },
+            "modifiers": [],
+            "name": "strField",
+            "references": [],
+            "type": "String"
+        }
+    ]
+}

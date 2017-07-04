@@ -1,0 +1,78 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p2800000EjlxoAAB",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p2800000EjlxoAAB",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 3
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getExpenses",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 11
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "saveExpense",
+            "parameters": [
+                {
+                    "name": "expense",
+                    "type": "Expense__c"
+                }
+            ],
+            "references": [],
+            "returnType": "Expense__c",
+            "type": null
+        }
+    ],
+    "name": "ExpenseController",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "ExpenseController",
+        "references": [],
+        "type": "ExpenseController"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 11
+            },
+            "modifiers": [],
+            "name": "expense",
+            "references": [],
+            "type": "Expense__c"
+        }
+    ]
+}

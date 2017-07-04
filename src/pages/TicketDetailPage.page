@@ -1,0 +1,45 @@
+<apex:page StandardController="Ticket__c" Extensions="CreateTicketExtension">
+    <apex:form >
+        <apex:pageBlock Title="Hi {!UserDetails.Full_Name__c},">
+            <apex:pageBlockSection title="Thanks for booking tickets with BookYourShow" collapsible="false">
+                <apex:PageBlockSectionItem >
+                    <apex:outputLabel style="font-weight:bold;font-size: 20px;font-family:Arial Black,Gadget,sans-serif" escape="true" value="Ticket # : {!Ticket__c.Name}"  ></apex:outputLabel>   
+                </apex:PageBlockSectionItem>     
+                <apex:inputHidden />              
+                <apex:PageBlockSectionItem >
+                    <apex:outputLabel style="font-weight:bold;font-size: 20px;font-family:Arial Black,Gadget,sans-serif" escape="true" value="Concert Details" ></apex:outputLabel>
+                </apex:PageBlockSectionItem>     
+                <apex:inputHidden />             
+                <apex:OutputField value="{!Ticket__c.Concert__c}"/>              
+                <apex:OutputField value="{!Concert.Date_of_Concert__c}"/>   
+                <apex:OutputField value="{!Ticket__c.No_of_Tickets__c}"/>                 
+                <apex:OutputField value="{!Ticket__c.Ticket_Price__c}"/>                 
+                <apex:PageBlockSectionItem >
+                    <apex:outputLabel style="font-weight:bold;font-size: 20px;font-family:Arial Black,Gadget,sans-serif" escape="true" value="Booked By" ></apex:outputLabel>   
+                </apex:PageBlockSectionItem>     
+                <apex:inputHidden />                                              
+                <apex:OutputField value="{!Ticket__c.BookYourShow_Users__c}"/> 
+                <apex:outputField value="{!UserDetails.Customer_Email_Id__c}"/>        
+                <apex:outputField value="{!Ticket__c.Booked_On__c}"/>   
+                <apex:inputHidden />                                                             
+            </apex:pageBlockSection>   
+            <apex:inputHidden value="{!Ticket__c.Is_Past_Event__c}"/>         
+            <apex:pageBlockSection rendered="{!IsCommentsEntered}">
+                <apex:outputField value="{!Ticket__c.Comments__c}"/> 
+            </apex:pageBlockSection>               
+            <apex:pageBlockSection rendered="{!ShowNotSatisfied}"> 
+                <apex:inputCheckbox label="Not Satisfied" value="{!NotSatisfied}"> 
+                    <apex:actionSupport event="onchange" action="{!InvokeCommentsBox}"/>
+                </apex:inputCheckbox> 
+                <apex:inputHidden />
+                <apex:inputTextarea id="CommentsBox" rendered="{!NotSatisfied}" value="{!Ticket__c.Comments__c}" cols="80" rows="10"/>                                               
+            </apex:pageBlockSection>  
+            <apex:pageBlockButtons rendered="{!NotSatisfied}" location="bottom">
+                <apex:commandButton action="{!SaveComments}"  value="Save Comment" />  
+            </apex:pageBlockButtons>  
+            <apex:pageBlockButtons location="Bottom">
+                <apex:commandButton action="{!CancelBooking}"  value="Back to Ticket history page" immediate="true"/> 
+            </apex:pageBlockButtons>            
+        </apex:pageBlock> 
+    </apex:form>
+</apex:page>

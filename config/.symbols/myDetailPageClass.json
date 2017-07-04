@@ -1,0 +1,71 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 9,
+                "line": 2
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "myDetailPageClass",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p2800000EkI3BAAV",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p2800000EkI3BAAV",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 5
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getmyDetailPage",
+            "parameters": [],
+            "references": [],
+            "returnType": "detail",
+            "type": null
+        }
+    ],
+    "name": "myDetailPageClass",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "myDetailPageClass",
+        "references": [],
+        "type": "myDetailPageClass"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 6
+            },
+            "modifiers": [],
+            "name": "detail",
+            "references": [],
+            "type": "detail"
+        }
+    ]
+}

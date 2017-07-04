@@ -1,0 +1,6 @@
+<aura:component >
+	<aura:attribute name="objSobject" type="Sobject" required="true" />
+	<a onclick="{!c.navigateToRecord}" style="width:100%;">	
+        View Record
+    </a>
+</aura:component>

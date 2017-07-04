@@ -1,0 +1,7 @@
+<apex:component controller="CustomAccountController">
+  <!-- <apex:attribute name="AccountId" type="Id" description="Id" assignTo="{!IdParam}" />
+  <apex:outputText value="From component"/>
+  <apex:outputText escape="false" value="{!Include}" /> -->
+  <apex:dynamicComponent componentValue="{!myTextPage}"/>
+  <apex:dynamicComponent componentValue="{!myDetailPage}"/>
+</apex:component>

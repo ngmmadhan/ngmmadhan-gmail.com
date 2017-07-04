@@ -1,0 +1,50 @@
+<aura:component controller="RelatedListDataGridController"
+                abstract="true">
+    <aura:attribute name="item" type="Object"/>
+    <aura:attribute name="itemRank" type="Integer"/>
+    <aura:attribute name="column" type="Object"/>    
+    <aura:attribute name="columnRank" type="Integer"/>
+    <aura:attribute name="displayMode" type="String" />
+       
+    <aura:attribute name="value" type="Object"/>	
+    <aura:attribute name="label" type="String"/>
+    <aura:attribute name="required" type="Boolean"/>
+    <aura:attribute name="length" type="Integer"/>
+    <aura:attribute name="options" type="Object[]"/>
+    <aura:attribute name="precision" type="Integer"/>
+    <aura:attribute name="digits" type="Integer"/>
+        
+    <aura:attribute name="hasErrors" type="Boolean"/>
+    <aura:attribute name="errors" type="Object[]"/>
+    
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />    
+    
+    <td aura:id="cellContainer" data-label="{!v.label}">         
+        <aura:if isTrue="{!v.displayMode != 'read'}">
+            <aura:if isTrue="{!v.hasErrors}">
+                <div class="slds-form-element" style="position: absolute;top: -10px;">
+                    <div class="slds-form-element__icon slds-align-left" onmouseover="{!c.toggleErrTooltip}" onmouseout="{!c.toggleErrTooltip}">
+                        <button class="slds-button slds-button--icon error-button" aria-describedby="tooltip" title="Help" >
+                            <lightning:icon iconName="utility:warning" size="x-small" alternativeText="Help"/>
+                            <span class="slds-assistive-text">Help</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="slds-popover slds-popover--tooltip slds-theme--error slds-nubbin--bottom-left tooltip-toggle" 
+                     role="tooltip" aura:id="tooltip" style="position:absolute;top:-50px;left:-2px">
+                    <div class="slds-popover__body">
+                        <ul>
+                            <aura:iteration items="{!v.errors}" var="error">
+                                <li>{!error.message}</li>   
+                            </aura:iteration>
+                        </ul>
+                    </div>
+                </div>
+            </aura:if>
+            <aura:if isTrue="{!v.required}">
+                <span class="required required-field">*</span>
+            </aura:if>
+        </aura:if>
+        {!v.body}
+    </td> 
+</aura:component>

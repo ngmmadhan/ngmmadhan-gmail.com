@@ -1,0 +1,39 @@
+<apex:page showHeader="false" standardStylesheets="false" sidebar="false" applyHtmlTag="false" applyBodyTag="false" docType="html-5.0">
+
+<html xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Salesforce Lightning Design System Trailhead Module</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Import the Design System style sheet -->
+  <apex:slds />
+</head>
+<body>
+  <div class="slds-scope">
+    <p class="slds-text-heading--large slds-align--absolute-center heading">
+      Bulk Dealer To Dealer Transfer
+    </p>
+
+    <center>
+        <div class="slds-grid slds-wrap">
+            <div class="slds-grid slds-wrap slds-grid--pull-padded">
+                <div class="slds-small-size--2-of-12">
+                        <strong>DEALER</strong>
+                </div>
+                <div class="slds-small-size--10-of-12">
+                        <strong>DEALER</strong>
+                </div>      
+ <div class="slds-p-horizontal--small slds-size--1-of-2 slds-medium-size--1-of-6 slds-large-size--4-of-12">DEALER</div>
+  <div class="slds-p-horizontal--small slds-size--1-of-2 slds-medium-size--5-of-6 slds-large-size--8-of-12">DEALER LOOKUP</div>    
+            </div>
+        </div>
+    </center>
+
+  </div>
+  <!-- / REQUIRED SLDS WRAPPER -->
+
+</body>
+</html>
+</apex:page>

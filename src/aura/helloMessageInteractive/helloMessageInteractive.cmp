@@ -1,0 +1,7 @@
+<aura:component >
+	<ltng:require styles="/resource/SLDS/assets/styles/salesforce-lightning-design-system.min.css" />
+    <aura:attribute name="message" type="string"/>
+    <p>Message of the day <ui:outputText value="{!v.message}"/> </p>
+    <ui:button label="You look nice today" press="{!c.handleclick}" class="slds-button slds-button--neutral"/> 
+    <ui:button label="Today is going to be a great day!" press="{!c.handleclick}" class="slds-button slds-button--neutral"/> 
+</aura:component>

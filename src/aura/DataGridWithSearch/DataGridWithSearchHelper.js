@@ -1,0 +1,4 @@
+({
+	onLoad: function(component, event) {
+	},
+})

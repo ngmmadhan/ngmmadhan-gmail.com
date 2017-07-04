@@ -1,0 +1,346 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "CruderForceCntrl",
+    "innerClasses": [
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": "DMLOutputLockWrapper",
+            "innerClasses": [],
+            "interfaces": [],
+            "key": "DMLOutputLockWrapper",
+            "methods": [],
+            "name": "DMLOutputLockWrapper",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [
+                        {
+                            "name": "AuraEnabled"
+                        }
+                    ],
+                    "location": {
+                        "column": 19,
+                        "line": 89
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "sObjID",
+                    "references": [],
+                    "type": "Id"
+                },
+                {
+                    "annotations": [
+                        {
+                            "name": "AuraEnabled"
+                        }
+                    ],
+                    "location": {
+                        "column": 24,
+                        "line": 91
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "success",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [
+                        {
+                            "name": "AuraEnabled"
+                        }
+                    ],
+                    "location": {
+                        "column": 29,
+                        "line": 93
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "errorCodeList",
+                    "references": [],
+                    "type": "List"
+                },
+                {
+                    "annotations": [
+                        {
+                            "name": "AuraEnabled"
+                        }
+                    ],
+                    "location": {
+                        "column": 24,
+                        "line": 95
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "record",
+                    "references": [],
+                    "type": "SObject"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 86
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "DMLOutputLockWrapper",
+                "references": [],
+                "type": "DMLOutputLockWrapper"
+            },
+            "variables": []
+        }
+    ],
+    "interfaces": [],
+    "key": "CruderForceCntrl",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 19
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "UpdateForceSObjects",
+            "parameters": [
+                {
+                    "name": "inputSObjectList",
+                    "type": "List"
+                }
+            ],
+            "references": [],
+            "returnType": "List",
+            "type": null
+        }
+    ],
+    "name": "CruderForceCntrl",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 30,
+            "line": 17
+        },
+        "modifiers": [
+            "without sharing",
+            "global"
+        ],
+        "name": "CruderForceCntrl",
+        "references": [],
+        "type": "CruderForceCntrl"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 81,
+                "line": 19
+            },
+            "modifiers": [],
+            "name": "inputSObjectList",
+            "references": [],
+            "type": "List<SObject>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 20
+            },
+            "modifiers": [],
+            "name": "wrapDMLObjList",
+            "references": [],
+            "type": "List<CruderForceCntrl.DMLOutputLockWrapper>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 23
+            },
+            "modifiers": [],
+            "name": "sObjMap",
+            "references": [],
+            "type": "Map<Id,SObject>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 24
+            },
+            "modifiers": [],
+            "name": "idSet",
+            "references": [],
+            "type": "Set<Id>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 25
+            },
+            "modifiers": [],
+            "name": "lockedIdList",
+            "references": [],
+            "type": "List<Id>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 26
+            },
+            "modifiers": [],
+            "name": "idMapper",
+            "references": [],
+            "type": "Map<Id,CruderForceCntrl.DMLOutputLockWrapper>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 27
+            },
+            "modifiers": [],
+            "name": "inputIdList",
+            "references": [],
+            "type": "List<Id>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 30
+            },
+            "modifiers": [],
+            "name": "obj",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 34
+            },
+            "modifiers": [],
+            "name": "success",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 35
+            },
+            "modifiers": [],
+            "name": "sObjID",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 37
+            },
+            "modifiers": [],
+            "name": "lockedstatusMap",
+            "references": [],
+            "type": "Map<Id,Boolean>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 43
+            },
+            "modifiers": [],
+            "name": "inputId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 53
+            },
+            "modifiers": [],
+            "name": "srList",
+            "references": [],
+            "type": "List<Database.SaveResult>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 56
+            },
+            "modifiers": [],
+            "name": "sr",
+            "references": [],
+            "type": "Database.SaveResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 58
+            },
+            "modifiers": [],
+            "name": "wrapDMLObj",
+            "references": [],
+            "type": "CruderForceCntrl.DMLOutputLockWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 59
+            },
+            "modifiers": [],
+            "name": "errorCodeList",
+            "references": [],
+            "type": "List<String>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 68
+            },
+            "modifiers": [],
+            "name": "err",
+            "references": [],
+            "type": "Database.Error"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 81
+            },
+            "modifiers": [],
+            "name": "lockResultList",
+            "references": [],
+            "type": "List<Approval.LockResult>"
+        }
+    ]
+}

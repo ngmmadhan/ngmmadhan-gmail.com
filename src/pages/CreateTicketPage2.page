@@ -1,0 +1,28 @@
+<apex:page Standardcontroller="Ticket__c" Extensions="CreateTicketExtension">
+    <apex:form >
+        <center>
+            <apex:pageBlock >  
+                <apex:pageBlockSection >
+                    <apex:pageBlockSectionItem dataStyle="width:10%" >                          
+                        <img src="/servlet/servlet.ImageServer?id=01528000002jyJo&oid=00D280000020XRr"/>
+                    </apex:pageBlockSectionItem>
+                    <apex:pageBlockSectionItem dataStyle="width:90%;vertical-align:middle;align:left;font-size:150%;" >                         
+                        <h1> Dear {!UserDetails.Full_Name__c},<br/> Due to High Demand the Cost of the ticket is increased by <b>10%</b>.<br/> Click Continue to see the updated price.</h1>
+                    </apex:pageBlockSectionItem>
+                </apex:pageBlockSection>  
+                <apex:pageBlockButtons location="Bottom">
+                    <apex:commandButton value="Continue" action="{!ContinueBooking}"/>
+                    <apex:commandButton value="Cancel" action="{!CancelBooking}" onclick="return AgainconfirmCancel()" immediate="true" />                    
+                </apex:pageBlockButtons>
+            </apex:pageBlock>
+        </center>
+    </apex:form>  
+    <!-- Java script starts Here -->
+    <script>
+    function AgainconfirmCancel() {
+        var isCancel = confirm("You are missing out your Dream concert !!! Are you sure?");
+        if (isCancel) return true;
+        return false;
+    } 
+    </script>
+</apex:page>

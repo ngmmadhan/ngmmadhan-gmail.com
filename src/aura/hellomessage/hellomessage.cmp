@@ -1,0 +1,4 @@
+<aura:component >
+    <aura:attribute name='message' type='string'/>
+    <p>{!'HelloMessage Component !!! ' + v.message}</p>
+</aura:component>

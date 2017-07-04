@@ -1,0 +1,20 @@
+<aura:component >
+	<aura:attribute name="placeholderText" type="String" default="Search text"/>
+	<aura:attribute name="searchKey" type="String" />
+
+	<aura:registerEvent name="SearchKeyChangeEvent" type="c:DataGridSearchEvent"/>
+
+	<!-- <div class="slds-form-element__control slds-input-has-icon slds-input-has-icon_right" style="width:100%;height:100%"> -->
+<div class="slds-combobox__form-element slds-input-has-icon slds-input-has-icon_right" style="width:100%;height:100%">
+  	<input type="text" class="slds-input slds-combobox__input" value="{!v.searchKey}" onkeyup="{!c.searchRecords}" placeholder="{!v.placeholderText}" />
+		<div aura:id="lookup_input" class=" slds-show">
+				<lightning:icon size="x-small" class="slds-icon_container slds-icon-utility-search slds-input__icon slds-input__icon_right" iconName="utility:search"/>
+		</div>
+
+		<div aura:id="reset_input" class="slds-hide">
+				<a onclick="{!c.resetInput}">
+						<lightning:icon size="x-small" class="slds-icon_container slds-icon-utility-search slds-input__icon slds-input__icon_right" iconName="utility:close"/>
+				</a>
+		</div>
+	</div>
+</aura:component>

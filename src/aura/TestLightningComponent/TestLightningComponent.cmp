@@ -1,0 +1,12 @@
+<aura:component controller="MyMapController">
+   <!--declare attributes-->
+   <aura:attribute name="lstKey" type="List"/>
+   <aura:attribute name="fullMap" type="map"/>
+    
+   <ui:button label="Iterate Map" press="{!c.fetchMapCtrl}"/>
+    
+   <!--Iterate the mapEntry Component.-->
+   <aura:iteration items="{!v.lstKey}" var="key" >
+      <c:MapComponent map="{!v.fullMap}" key="{!key}"/>
+   </aura:iteration>   
+</aura:component>

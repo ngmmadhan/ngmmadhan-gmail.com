@@ -1,0 +1,21 @@
+<apex:page StandardController="Ticket__c" Extensions="CreateTicketExtension">
+    <apex:form >
+        <apex:pageBlock Title="Welcome to BookYourShow">
+            <apex:pageBlockSection >
+                <apex:OutputField value="{!Ticket__c.Concert__c}"/>              
+                <apex:OutputField value="{!Concert.Date_of_Concert__c}"/>                
+                <apex:OutputField value="{!Concert.Ticket_Price__c}"/>      
+                <apex:inputHidden />                                                        
+                <apex:inputField value="{!Ticket__c.BookYourShow_Users__c}"> 
+                    <apex:actionSupport event="onchange" action="{!RefreshUserDetails}"/>
+                </apex:inputField>
+                <apex:outputField value="{!UserDetails.Customer_Email_Id__c}"/> 
+                <apex:outputField value="{!Ticket__c.No_of_Tickets__c}"/>    
+            </apex:pageBlockSection>         
+            <apex:pageBlockButtons location="Bottom">
+                <apex:CommandButton action="{!ProceedtoConfirm}" Value="Proceed to Confirm"/>
+                <apex:commandButton action="{!CancelBooking}"  value="Cancel" immediate="true"/>  
+            </apex:pageBlockButtons>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>
