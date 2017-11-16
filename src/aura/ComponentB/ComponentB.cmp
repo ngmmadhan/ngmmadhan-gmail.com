@@ -1,5 +1,0 @@
-<aura:component implements="force:appHostable" access="global">
-  <aura:attribute name="accountid" type="String" />
-  <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
-     Hello
-</aura:component>

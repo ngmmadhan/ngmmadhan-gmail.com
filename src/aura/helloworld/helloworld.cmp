@@ -1,5 +1,0 @@
-<aura:component >
-  <header class="slds-text-heading--large slds-align--absolute-center header slds-text-color--default">
-      Claim
-  </header>
-</aura:component>

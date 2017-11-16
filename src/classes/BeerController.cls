@@ -1,5 +1,13 @@
 public with sharing class BeerController {
 
+    public BeerController(ApexPages.StandardController controller) {
+
+    }
+
+
+    public BeerController() {
+    }
+    
     @AuraEnabled
     public static PagedResult findAll(String searchKey, Decimal minAlcohol, Decimal pageNumber) {
         Integer pageSize = 12;

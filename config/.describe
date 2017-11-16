@@ -32,6 +32,13 @@
             "xmlName": "Scontrol"
         },
         {
+            "directoryName": "certs",
+            "inFolder": false,
+            "metaFile": true,
+            "suffix": "crt",
+            "xmlName": "Certificate"
+        },
+        {
             "directoryName": "aura",
             "inFolder": false,
             "metaFile": false,
@@ -73,6 +80,13 @@
             "xmlName": "NamedCredential"
         },
         {
+            "directoryName": "externalServiceRegistrations",
+            "inFolder": false,
+            "metaFile": false,
+            "suffix": "externalServiceRegistration",
+            "xmlName": "ExternalServiceRegistration"
+        },
+        {
             "directoryName": "roles",
             "inFolder": false,
             "metaFile": false,
@@ -87,6 +101,20 @@
             "xmlName": "Group"
         },
         {
+            "directoryName": "globalValueSets",
+            "inFolder": false,
+            "metaFile": false,
+            "suffix": "globalValueSet",
+            "xmlName": "GlobalValueSet"
+        },
+        {
+            "directoryName": "standardValueSets",
+            "inFolder": false,
+            "metaFile": false,
+            "suffix": "standardValueSet",
+            "xmlName": "StandardValueSet"
+        },
+        {
             "directoryName": "customPermissions",
             "inFolder": false,
             "metaFile": false,
@@ -96,6 +124,7 @@
         {
             "childXmlNames": [
                 "CustomField",
+                "Index",
                 "BusinessProcess",
                 "CompactLayout",
                 "RecordType",
@@ -138,6 +167,13 @@
             "metaFile": false,
             "suffix": "snapshot",
             "xmlName": "AnalyticSnapshot"
+        },
+        {
+            "directoryName": "feedFilters",
+            "inFolder": false,
+            "metaFile": false,
+            "suffix": "feedFilter",
+            "xmlName": "CustomFeedFilter"
         },
         {
             "directoryName": "layouts",
@@ -209,6 +245,20 @@
             "xmlName": "CustomApplication"
         },
         {
+            "directoryName": "EmbeddedServiceConfig",
+            "inFolder": false,
+            "metaFile": false,
+            "suffix": "EmbeddedServiceConfig",
+            "xmlName": "EmbeddedServiceConfig"
+        },
+        {
+            "directoryName": "EmbeddedServiceBranding",
+            "inFolder": false,
+            "metaFile": false,
+            "suffix": "EmbeddedServiceBranding",
+            "xmlName": "EmbeddedServiceBranding"
+        },
+        {
             "directoryName": "flows",
             "inFolder": false,
             "metaFile": false,
@@ -221,6 +271,20 @@
             "metaFile": false,
             "suffix": "flowDefinition",
             "xmlName": "FlowDefinition"
+        },
+        {
+            "directoryName": "eventSubscriptions",
+            "inFolder": false,
+            "metaFile": false,
+            "suffix": "subscription",
+            "xmlName": "EventSubscription"
+        },
+        {
+            "directoryName": "eventDeliveries",
+            "inFolder": false,
+            "metaFile": false,
+            "suffix": "delivery",
+            "xmlName": "EventDelivery"
         },
         {
             "childXmlNames": [
@@ -304,6 +368,20 @@
             "xmlName": "CustomObjectTranslation"
         },
         {
+            "directoryName": "globalValueSetTranslations",
+            "inFolder": false,
+            "metaFile": false,
+            "suffix": "globalValueSetTranslation",
+            "xmlName": "GlobalValueSetTranslation"
+        },
+        {
+            "directoryName": "standardValueSetTranslations",
+            "inFolder": false,
+            "metaFile": false,
+            "suffix": "standardValueSetTranslation",
+            "xmlName": "StandardValueSetTranslation"
+        },
+        {
             "directoryName": "classes",
             "inFolder": false,
             "metaFile": true,
@@ -316,6 +394,13 @@
             "metaFile": true,
             "suffix": "trigger",
             "xmlName": "ApexTrigger"
+        },
+        {
+            "directoryName": "testSuites",
+            "inFolder": false,
+            "metaFile": false,
+            "suffix": "testSuite",
+            "xmlName": "ApexTestSuite"
         },
         {
             "directoryName": "profiles",
@@ -339,6 +424,20 @@
             "xmlName": "CustomMetadata"
         },
         {
+            "directoryName": "profilePasswordPolicies",
+            "inFolder": false,
+            "metaFile": false,
+            "suffix": "profilePasswordPolicy",
+            "xmlName": "ProfilePasswordPolicy"
+        },
+        {
+            "directoryName": "profileSessionSettings",
+            "inFolder": false,
+            "metaFile": false,
+            "suffix": "profileSessionSetting",
+            "xmlName": "ProfileSessionSetting"
+        },
+        {
             "directoryName": "datacategorygroups",
             "inFolder": false,
             "metaFile": false,
@@ -353,6 +452,13 @@
             "xmlName": "RemoteSiteSetting"
         },
         {
+            "directoryName": "cspTrustedSites",
+            "inFolder": false,
+            "metaFile": false,
+            "suffix": "cspTrustedSite",
+            "xmlName": "CspTrustedSite"
+        },
+        {
             "childXmlNames": [
                 "MatchingRule"
             ],
@@ -363,11 +469,32 @@
             "xmlName": "MatchingRules"
         },
         {
+            "directoryName": "duplicateRules",
+            "inFolder": false,
+            "metaFile": false,
+            "suffix": "duplicateRule",
+            "xmlName": "DuplicateRule"
+        },
+        {
+            "directoryName": "cleanDataServices",
+            "inFolder": false,
+            "metaFile": false,
+            "suffix": "cleanDataService",
+            "xmlName": "CleanDataService"
+        },
+        {
             "directoryName": "authproviders",
             "inFolder": false,
             "metaFile": false,
             "suffix": "authprovider",
             "xmlName": "AuthProvider"
+        },
+        {
+            "directoryName": "eclair",
+            "inFolder": false,
+            "metaFile": true,
+            "suffix": "geodata",
+            "xmlName": "EclairGeoData"
         },
         {
             "directoryName": "sites",
@@ -382,6 +509,13 @@
             "metaFile": false,
             "suffix": "channelLayout",
             "xmlName": "ChannelLayout"
+        },
+        {
+            "directoryName": "contentassets",
+            "inFolder": false,
+            "metaFile": true,
+            "suffix": "asset",
+            "xmlName": "ContentAsset"
         },
         {
             "childXmlNames": [
@@ -409,6 +543,13 @@
             "xmlName": "Community"
         },
         {
+            "directoryName": "ChatterExtensions",
+            "inFolder": false,
+            "metaFile": false,
+            "suffix": "ChatterExtension",
+            "xmlName": "ChatterExtension"
+        },
+        {
             "directoryName": "callCenters",
             "inFolder": false,
             "metaFile": false,
@@ -430,6 +571,13 @@
             "xmlName": "AppMenu"
         },
         {
+            "directoryName": "delegateGroups",
+            "inFolder": false,
+            "metaFile": false,
+            "suffix": "delegateGroup",
+            "xmlName": "DelegateGroup"
+        },
+        {
             "directoryName": "siteDotComSites",
             "inFolder": false,
             "metaFile": true,
@@ -444,6 +592,27 @@
             "xmlName": "Network"
         },
         {
+            "directoryName": "communityThemeDefinitions",
+            "inFolder": false,
+            "metaFile": false,
+            "suffix": "communityThemeDefinition",
+            "xmlName": "CommunityThemeDefinition"
+        },
+        {
+            "directoryName": "brandingSets",
+            "inFolder": false,
+            "metaFile": false,
+            "suffix": "brandingSet",
+            "xmlName": "BrandingSet"
+        },
+        {
+            "directoryName": "communityTemplateDefinitions",
+            "inFolder": false,
+            "metaFile": false,
+            "suffix": "communityTemplateDefinition",
+            "xmlName": "CommunityTemplateDefinition"
+        },
+        {
             "childXmlNames": [
                 "ManagedTopic"
             ],
@@ -452,6 +621,27 @@
             "metaFile": false,
             "suffix": "managedTopics",
             "xmlName": "ManagedTopics"
+        },
+        {
+            "directoryName": "moderation",
+            "inFolder": false,
+            "metaFile": false,
+            "suffix": "keywords",
+            "xmlName": "KeywordList"
+        },
+        {
+            "directoryName": "userCriteria",
+            "inFolder": false,
+            "metaFile": false,
+            "suffix": "userCriteria",
+            "xmlName": "UserCriteria"
+        },
+        {
+            "directoryName": "moderation",
+            "inFolder": false,
+            "metaFile": false,
+            "suffix": "rule",
+            "xmlName": "ModerationRule"
         },
         {
             "directoryName": "samlssoconfigs",
@@ -494,6 +684,27 @@
             "metaFile": false,
             "suffix": "pathAssistant",
             "xmlName": "PathAssistant"
+        },
+        {
+            "directoryName": "LeadConvertSettings",
+            "inFolder": false,
+            "metaFile": false,
+            "suffix": "LeadConvertSetting",
+            "xmlName": "LeadConvertSettings"
+        },
+        {
+            "directoryName": "cachePartitions",
+            "inFolder": false,
+            "metaFile": false,
+            "suffix": "cachePartition",
+            "xmlName": "PlatformCachePartition"
+        },
+        {
+            "directoryName": "assistantRecommendationTypes",
+            "inFolder": false,
+            "metaFile": false,
+            "suffix": "assistantRecommendationType",
+            "xmlName": "AssistantRecommendationType"
         },
         {
             "directoryName": "settings",

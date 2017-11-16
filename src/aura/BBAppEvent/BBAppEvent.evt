@@ -1,3 +1,0 @@
-<aura:event type="COMPONENT" description="BB App Event template">
-    <aura:attribute name="action" type="String" />
-</aura:event>

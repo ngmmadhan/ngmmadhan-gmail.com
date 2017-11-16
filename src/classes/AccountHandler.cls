@@ -7,7 +7,7 @@ public class AccountHandler {
             insert Acct;
             return Acct;
         } catch (DmlException e) {
-            system.debug('Exception Message' + e.getmessage());
+            system.debug('Exception Message Updated' + e.getmessage());
             return null;
         }
     }

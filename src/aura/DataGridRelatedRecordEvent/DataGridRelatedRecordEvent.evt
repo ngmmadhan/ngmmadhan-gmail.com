@@ -1,3 +1,0 @@
-<aura:event type="COMPONENT" description="Related record event" >
-	<aura:attribute name="item" type="Object" description="Related record instance" />
-</aura:event>

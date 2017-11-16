@@ -12,5 +12,7 @@
         "ApexPage",
         "ApexTrigger",
         "StaticResource"
-    ]
+    ],
+    "orgType": "production",
+    "instanceUrl": "https://ngmmadhan-dev-ed.my.salesforce.com"
 }

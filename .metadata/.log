@@ -1,0 +1,450 @@
+!SESSION 2017-09-23 19:44:50.498 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_141
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY mega.js.tern 1 0 2017-09-23 19:45:32.287
+!MESSAGE Started Node.js v5.9.1 (V8 v4.6.85.31) in 1.069 s
+
+!ENTRY mega.js.tern 1 0 2017-09-23 19:45:32.709
+!MESSAGE Loading tern.js...
+
+
+!ENTRY mega.js.tern 1 0 2017-09-23 19:45:32.717
+!MESSAGE Loading library ecma5
+
+
+!ENTRY mega.js.tern 1 0 2017-09-23 19:45:32.745
+!MESSAGE Loading library browser
+
+
+!ENTRY mega.js.tern 1 0 2017-09-23 19:45:32.756
+!MESSAGE Loading library ecma6
+
+
+!ENTRY mega.js.tern 1 0 2017-09-23 19:45:32.765
+!MESSAGE Loading plugin doc_comment
+
+
+!ENTRY mega.js.tern 1 0 2017-09-23 19:45:32.795
+!MESSAGE Loading plugin aura
+
+
+!ENTRY mega.js.tern 1 0 2017-09-23 19:45:34.015
+!MESSAGE Tern.js (0.19.0) ready
+
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-09-23 19:45:50.362
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\madhan.sundararaj'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY mega.js.tern 1 0 2017-09-23 19:46:00.560
+!MESSAGE ':core' project is not available. Please add '<module>:core</module>' to your list of partial build modules. If using para, set 'ide-search-all-files: true' and run 'para refresh'
+
+!ENTRY mega.js.tern 1 0 2017-09-23 19:46:00.619
+!MESSAGE Analyzed Lightning System JavaScript Support in 37.84 ms
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2017-09-23 19:50:41.429
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2017-09-23 19:50:41.429
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-09-23 19:50:41.430
+!MESSAGE Software being installed: Force.com IDE (Beta) 40.0.0.v20170623-1801 (com.salesforce.tools.ide.feature.group 40.0.0.v20170623-1801)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-09-23 19:50:41.430
+!MESSAGE Software currently installed: Force.com Lightning Support 2.0.0.201701101558 (mega.lightning.feature.external.feature.group 2.0.0.201701101558)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-09-23 19:50:41.430
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-23 19:50:41.430
+!MESSAGE MEGA Lightning 2.0.0.201701101558 (mega.lightning 2.0.0.201701101558)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-23 19:50:41.430
+!MESSAGE MEGA Lightning 2.0.0.201706151732 (mega.lightning 2.0.0.201706151732)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-09-23 19:50:41.430
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-23 19:50:41.430
+!MESSAGE From: Force.com IDE (Beta) 40.0.0.v20170623-1801 (com.salesforce.tools.ide.feature.group 40.0.0.v20170623-1801)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-23 19:50:41.430
+!MESSAGE To: mega.lightning [2.0.0.201706151732]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-09-23 19:50:41.430
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-23 19:50:41.430
+!MESSAGE From: Force.com Lightning Support 2.0.0.201701101558 (mega.lightning.feature.external.feature.group 2.0.0.201701101558)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-23 19:50:41.430
+!MESSAGE To: mega.lightning [2.0.0.201701101558]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2017-09-23 19:50:41.556
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2017-09-23 19:50:41.556
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-09-23 19:50:41.556
+!MESSAGE Software being installed: Force.com IDE (Beta) 40.0.0.v20170623-1801 (com.salesforce.tools.ide.feature.group 40.0.0.v20170623-1801)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-09-23 19:50:41.556
+!MESSAGE Software currently installed: Force.com Lightning Support 2.0.0.201701101558 (mega.lightning.feature.external.feature.group 2.0.0.201701101558)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-09-23 19:50:41.556
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-23 19:50:41.556
+!MESSAGE MEGA Lightning 2.0.0.201701101558 (mega.lightning 2.0.0.201701101558)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-23 19:50:41.556
+!MESSAGE MEGA Lightning 2.0.0.201706151732 (mega.lightning 2.0.0.201706151732)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-09-23 19:50:41.556
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-23 19:50:41.556
+!MESSAGE From: Force.com IDE (Beta) 40.0.0.v20170623-1801 (com.salesforce.tools.ide.feature.group 40.0.0.v20170623-1801)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-23 19:50:41.556
+!MESSAGE To: mega.lightning [2.0.0.201706151732]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-09-23 19:50:41.556
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-23 19:50:41.556
+!MESSAGE From: Force.com Lightning Support 2.0.0.201701101558 (mega.lightning.feature.external.feature.group 2.0.0.201701101558)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-23 19:50:41.556
+!MESSAGE To: mega.lightning [2.0.0.201701101558]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2017-09-23 19:50:41.575
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2017-09-23 19:50:41.575
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-09-23 19:50:41.575
+!MESSAGE Software being installed: Force.com IDE (Beta) 40.0.0.v20170623-1801 (com.salesforce.tools.ide.feature.group 40.0.0.v20170623-1801)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-09-23 19:50:41.575
+!MESSAGE Software currently installed: Force.com Lightning Support 2.0.0.201701101558 (mega.lightning.feature.external.feature.group 2.0.0.201701101558)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-09-23 19:50:41.575
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-23 19:50:41.575
+!MESSAGE MEGA Lightning 2.0.0.201701101558 (mega.lightning 2.0.0.201701101558)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-23 19:50:41.575
+!MESSAGE MEGA Lightning 2.0.0.201706151732 (mega.lightning 2.0.0.201706151732)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-09-23 19:50:41.575
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-23 19:50:41.575
+!MESSAGE From: Force.com IDE (Beta) 40.0.0.v20170623-1801 (com.salesforce.tools.ide.feature.group 40.0.0.v20170623-1801)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-23 19:50:41.575
+!MESSAGE To: mega.lightning [2.0.0.201706151732]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-09-23 19:50:41.575
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-23 19:50:41.575
+!MESSAGE From: Force.com Lightning Support 2.0.0.201701101558 (mega.lightning.feature.external.feature.group 2.0.0.201701101558)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-23 19:50:41.575
+!MESSAGE To: mega.lightning [2.0.0.201701101558]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2017-09-23 19:50:41.583
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2017-09-23 19:50:41.583
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-09-23 19:50:41.583
+!MESSAGE Software being installed: Force.com IDE (Beta) 40.0.0.v20170623-1801 (com.salesforce.tools.ide.feature.group 40.0.0.v20170623-1801)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-09-23 19:50:41.583
+!MESSAGE Software currently installed: Force.com Lightning Support 2.0.0.201701101558 (mega.lightning.feature.external.feature.group 2.0.0.201701101558)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-09-23 19:50:41.583
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-23 19:50:41.583
+!MESSAGE MEGA Lightning 2.0.0.201701101558 (mega.lightning 2.0.0.201701101558)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-23 19:50:41.583
+!MESSAGE MEGA Lightning 2.0.0.201706151732 (mega.lightning 2.0.0.201706151732)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-09-23 19:50:41.583
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-23 19:50:41.583
+!MESSAGE From: Force.com IDE (Beta) 40.0.0.v20170623-1801 (com.salesforce.tools.ide.feature.group 40.0.0.v20170623-1801)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-23 19:50:41.583
+!MESSAGE To: mega.lightning [2.0.0.201706151732]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-09-23 19:50:41.583
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-23 19:50:41.584
+!MESSAGE From: Force.com Lightning Support 2.0.0.201701101558 (mega.lightning.feature.external.feature.group 2.0.0.201701101558)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-23 19:50:41.584
+!MESSAGE To: mega.lightning [2.0.0.201701101558]
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2017-09-23 19:55:55.366
+!MESSAGE Error processing mirrors URL: http://www.eclipse.org/downloads/download.php?file=/oomph/drops/milestone/S20170714-043548-1.9.0-M1&countryCode=us&timeZone=5&format=xml
+!STACK 0
+org.xml.sax.SAXParseException; systemId: http://www.eclipse.org/downloads/download.php?file=/oomph/drops/milestone/S20170714-043548-1.9.0-M1&countryCode=us&timeZone=5&format=xml; lineNumber: 1; columnNumber: 72; The markup in the document following the root element must be well-formed.
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorSelector.computeMirrors(MirrorSelector.java:275)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorSelector.initMirrors(MirrorSelector.java:336)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorSelector.selectMirror(MirrorSelector.java:406)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorSelector.getMirrorLocation(MirrorSelector.java:314)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getMirror(SimpleArtifactRepository.java:695)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.downloadArtifact(SimpleArtifactRepository.java:590)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:723)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:319)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:288)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:223)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:153)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:707)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:63)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2017-09-23 19:56:52.044
+!MESSAGE Connection to http://download.eclipse.org/oomph/drops/milestone/S20170714-043548-1.9.0-M1/plugins/org.eclipse.oomph.p2.ui_1.8.0.v20170327-1117.jar.pack.gz failed on Connection timed out: connect. Retry attempt 0 started
+!STACK 0
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient4.ECFHttpClientProtocolSocketFactory.connectSocket(ECFHttpClientProtocolSocketFactory.java:86)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:177)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2017-09-23 20:39:33.494
+!MESSAGE Connection to http://download.eclipse.org/oomph/drops/milestone/S20170714-043548-1.9.0-M1/plugins/org.eclipse.oomph.setup.doc_1.9.0.v20170706-0615.jar failed on Connection timed out: connect. Retry attempt 0 started
+!STACK 0
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient4.ECFHttpClientProtocolSocketFactory.connectSocket(ECFHttpClientProtocolSocketFactory.java:86)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:177)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.salesforce.ide.core 2 0 2017-09-24 11:58:28.922
+!MESSAGE  WARN [2017-09-24 11:58:27,063] (ConnectionFactory.java:clearCache:217) - No cached connections
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-09-24 11:58:29.126
+!MESSAGE  WARN [2017-09-24 11:58:29,126] (DescribeObjectRegistry.java:clearCache:660) - No cached describes
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-09-24 11:58:29.126
+!MESSAGE  WARN [2017-09-24 11:58:29,126] (MetadataFactory.java:clearCache:125) - No cached metadata stubs
+
+!SESSION 2017-09-29 11:38:37.267 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_141
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY mega.js.tern 1 0 2017-09-29 11:39:41.429
+!MESSAGE Started Node.js v5.9.1 (V8 v4.6.85.31) in 853.3 ms
+
+!ENTRY mega.js.tern 1 0 2017-09-29 11:39:42.117
+!MESSAGE Loading tern.js...
+
+
+!ENTRY mega.js.tern 1 0 2017-09-29 11:39:42.129
+!MESSAGE Loading library ecma5
+
+
+!ENTRY mega.js.tern 1 0 2017-09-29 11:39:42.153
+!MESSAGE Loading library browser
+
+
+!ENTRY mega.js.tern 1 0 2017-09-29 11:39:42.169
+!MESSAGE Loading library ecma6
+
+
+!ENTRY mega.js.tern 1 0 2017-09-29 11:39:42.181
+!MESSAGE Loading plugin doc_comment
+
+
+!ENTRY mega.js.tern 1 0 2017-09-29 11:39:42.213
+!MESSAGE Loading plugin aura
+
+
+!ENTRY mega.js.tern 1 0 2017-09-29 11:39:43.677
+!MESSAGE Tern.js (0.19.0) ready
+
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-09-29 11:39:54.934
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\madhan.sundararaj'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY mega.js.tern 1 0 2017-09-29 11:39:55.782
+!MESSAGE ':core' project is not available. Please add '<module>:core</module>' to your list of partial build modules. If using para, set 'ide-search-all-files: true' and run 'para refresh'
+
+!ENTRY mega.js.tern 1 0 2017-09-29 11:39:55.818
+!MESSAGE Analyzed Lightning System JavaScript Support in 24.92 ms
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2017-09-29 12:39:15.087
+!MESSAGE Unknown Host: http://download.eclipse.org/releases/neon/compositeContent.xml
+!STACK 0
+java.net.UnknownHostException: download.eclipse.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:328)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2017-09-29 12:39:15.181
+!MESSAGE Unknown Host: http://dl.microsoft.com/eclipse/tfs/content.xml
+!STACK 0
+java.net.UnknownHostException: dl.microsoft.com
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:328)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2017-09-29 12:39:15.652
+!MESSAGE Unknown Host: http://download.eclipse.org/oomph/updates/milestone/latest/compositeContent.xml
+!STACK 0
+java.net.UnknownHostException: download.eclipse.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:328)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2017-09-29 12:39:17.638
+!MESSAGE Unknown Host: https://developer.salesforce.com/media/force-ide/sfdx/compositeContent.xml
+!STACK 0
+java.net.UnknownHostException: developer.salesforce.com
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:328)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.ui.ide 4 0 2017-09-29 15:06:38.600
+!MESSAGE Could not import project located at D:\Workspace\ngmmadhan@gmail.com\ngmmadhan@gmail.com
+!STACK 0
+org.eclipse.ui.internal.wizards.datatransfer.CouldNotImportProjectException: Could not import project located at D:\Workspace\ngmmadhan@gmail.com\ngmmadhan@gmail.com
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.toExistingOrNewProject(SmartImportJob.java:518)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.run(SmartImportJob.java:239)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:169)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:53)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:263)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:247)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.createOrImportProject(SmartImportJob.java:557)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.toExistingOrNewProject(SmartImportJob.java:505)
+	... 2 more
+
+!ENTRY com.salesforce.ide.core 2 0 2017-09-29 15:07:03.567
+!MESSAGE  WARN [2017-09-29 15:07:03,551] (ConnectionFactory.java:clearCache:217) - No cached connections
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-09-29 15:07:03.583
+!MESSAGE  WARN [2017-09-29 15:07:03,583] (DescribeObjectRegistry.java:clearCache:660) - No cached describes
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-09-29 15:07:03.599
+!MESSAGE  WARN [2017-09-29 15:07:03,599] (MetadataFactory.java:clearCache:125) - No cached metadata stubs
+
+!SESSION 2017-09-29 15:07:04.617 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_141
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data file:/D:/Workspace/ngmmadhan@gmail.com/ngmmadhan@gmail.com/ -product org.eclipse.epp.package.java.product
+
+!ENTRY mega.js.tern 1 0 2017-09-29 15:07:09.869
+!MESSAGE Started Node.js v5.9.1 (V8 v4.6.85.31) in 932.9 ms
+
+!ENTRY mega.js.tern 1 0 2017-09-29 15:07:10.177
+!MESSAGE Loading tern.js...
+
+
+!ENTRY mega.js.tern 1 0 2017-09-29 15:07:10.205
+!MESSAGE Loading library ecma5
+
+
+!ENTRY mega.js.tern 1 0 2017-09-29 15:07:10.237
+!MESSAGE Loading library browser
+
+
+!ENTRY mega.js.tern 1 0 2017-09-29 15:07:10.257
+!MESSAGE Loading library ecma6
+
+
+!ENTRY mega.js.tern 1 0 2017-09-29 15:07:10.285
+!MESSAGE Loading plugin doc_comment
+
+
+!ENTRY mega.js.tern 1 0 2017-09-29 15:07:10.365
+!MESSAGE Loading plugin aura
+
+
+!ENTRY mega.js.tern 1 0 2017-09-29 15:07:12.292
+!MESSAGE Tern.js (0.19.0) ready
+
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-09-29 15:07:17.487
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\madhan.sundararaj'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY mega.js.tern 1 0 2017-09-29 15:07:18.179
+!MESSAGE ':core' project is not available. Please add '<module>:core</module>' to your list of partial build modules. If using para, set 'ide-search-all-files: true' and run 'para refresh'
+
+!ENTRY mega.js.tern 1 0 2017-09-29 15:07:18.459
+!MESSAGE Analyzed Lightning System JavaScript Support in 175.2 ms

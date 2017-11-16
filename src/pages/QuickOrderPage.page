@@ -1,6 +1,6 @@
 <apex:page standardController="Account" extensions="QuickOrderController" docType="html-5.0" standardStylesheets="false" showheader="false" sidebar="false">
       
-      <!--Include Stylesheets for the Mobile look and feel -->
+      <!--Include Stylesheets for the Mobile look and feel 
       <apex:stylesheet value="{!URLFOR($Resource.Mobile_Design_Templates, 
                 'Mobile-Design-Templates-master/common/css/app.min.css')}"/>
       <apex:includeScript value="{!URLFOR($Resource.Mobile_Design_Templates, 
@@ -8,7 +8,7 @@
       <apex:includeScript value="{!URLFOR($Resource.Mobile_Design_Templates, 
                 'Mobile-Design-Templates-master/common/js/jquery.touchwipe.min.js')}"/>
       <apex:includeScript value="{!URLFOR($Resource.Mobile_Design_Templates, 
-                'Mobile-Design-Templates-master/common/js/main.min.js')}"/>
+                'Mobile-Design-Templates-master/common/js/main.min.js')}"/>-->
                 
       <script type='text/javascript' src='/canvas/sdk/js/publisher.js'></script>
       

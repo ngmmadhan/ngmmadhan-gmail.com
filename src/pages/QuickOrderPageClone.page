@@ -1,0 +1,5 @@
+<apex:page docType="html-5.0" standardcontroller="Beer__c" extensions="BeerController" standardStylesheets="false" showheader="false" sidebar="false">
+ 
+ This is Test Page
+ 
+</apex:page>
